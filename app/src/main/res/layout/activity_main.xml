@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcampo"
+    tools:context="br.com.uninove.aula.meutime.activities.MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:nome="@string/string_selecione_jogador" />
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meuJogador5"
+        app:nome="@string/string_selecione_jogador" />
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="28dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meuJogador4"
+        app:nome="@string/string_selecione_jogador" />
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meuJogador9"
+        app:nome="@string/string_selecione_jogador" />
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="56dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintEnd_toStartOf="@+id/meuJogador4"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meuJogador7"
+        app:nome="@string/string_selecione_jogador" />
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintEnd_toStartOf="@+id/meuJogador7"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meuJogador11"
+        app:nome="@string/string_selecione_jogador" />
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="36dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meuJogador11"
+        app:nome="@string/string_selecione_jogador" />
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginTop="36dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/meuJogador10"
+        app:nome="@string/string_selecione_jogador" />
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="92dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/meuJogador8"
+        app:layout_constraintTop_toBottomOf="@+id/meuJogador10"
+        app:nome="@string/string_selecione_jogador" />
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="148dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/meuJogador11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:nome="@string/string_selecione_jogador" />
+
+    <br.com.uninove.aula.meutime.customviews.MeuJogador
+        android:id="@+id/meuJogador11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="148dp"
+        android:onClick="editarJogar"
+        app:foto="@drawable/jogadornone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:nome="@string/string_selecione_jogador" />
+</android.support.constraint.ConstraintLayout>

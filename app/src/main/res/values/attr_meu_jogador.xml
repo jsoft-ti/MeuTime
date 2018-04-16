@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MeuJogador">
+        <attr name="nome" format="integer" />
+        <attr name="foto" format="integer"/>
+        <attr name="posicaoX" format="integer"/>
+        <attr name="posicaoY" format="integer"/>
+
+    </declare-styleable>
+</resources>
